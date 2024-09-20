@@ -14,6 +14,9 @@ Hardware:
 * 17he19-2004s stepper motors are from the Mercury One BOM
 https://www.omc-stepperonline.com/e-series-nema-17-bipolar-55ncm-77-88oz-in-2a-42x48mm-4-wires-w-1m-cable-connector-17he19-2004s
 
+My contribution:
+* STL file to mount the BTT Microprobe on the E34M1 head (uses M3 bolts and nuts)
+
 Software and docs:
 * KIAUH https://github.com/dw-0/kiauh?tab=readme-ov-file
 * TMC Autotuning https://github.com/andrewmcgr/klipper_tmc_autotune
@@ -24,7 +27,7 @@ Software and docs:
 
 ## Dual Z
 The MKS Robin Nano v3 has a stepper driver for the "hotend 1" extruder that is being used for stepper_z1.<br>
-The connections to stepper_z and stepper_z1 matter for Z_TILT_ADJUST.  With origin at the front-left corner:
+The connections to stepper_z and stepper_z1 matter for Z_TILT_ADJUST.  <br>With origin at the front-left corner:
 * Connect the first/original stepper_z driver to the left-hand stepper motor.
 * Connect the second/hotend1 stepper_z1 driver to the right-hand stepper motor.
 
