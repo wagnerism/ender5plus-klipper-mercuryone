@@ -2,9 +2,13 @@
 Klipper configurations for Ender 5 Plus with MKS Robin Nano v3 and the Mercury One CoreXY mod.
 
 # Future changes
-* Install Rapido UHF hotend
-* Install filament runout detector direct on the orbiter extruder
+* Install Rapido UHF hotend<br>
+https://trianglelab.net/products/rapido-hotend-20?VariantsId=11312
+* Install filament runout detector direct on the orbiter extruder<br>
+https://trianglelab.net/products/orbiter-v2-filament-sensor?VariantsId=10610
 * Hydra 3-point bed mod
+  * https://docs.zerog.one/manual/build/hydra/introduction
+  * second MCU instead of replacing the main board with one that has more stepper drivers
 
 # References
 
